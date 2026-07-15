@@ -130,6 +130,10 @@ body {
     padding: 80px 20%;
     background-color: #111111;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 #projects h2 {
@@ -145,6 +149,7 @@ body {
     padding: 30px;
     margin-bottom: 20px;
     text-align: left;
+    width: 280px;
 }
 
 .project-card h3 {
